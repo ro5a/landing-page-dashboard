@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "regular";
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.bg-home{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ 
+}
+.card-courses{
+  display: grid;
+  grid-template-columns: auto  auto;
+  column-gap: 29px;
+  row-gap: 30px;
+  justify-content: center;
+}
+.card1{
+ 
+  margin-left: 30px;
+ margin-bottom: 30px;
+
+
+}
+
+.mobile-menu{
+  display: none;
+}
+
+aside {
+  top: 0px;
+  z-index: 1000;
+  width: 250px;
+  height: 100vh;
+  background:#EA7C17;
+  position: fixed;
+  right: 0;
+  font-family: "regular";
+  color: #000000;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.75);
+  transition:all 0.25s ease-in-out;
+}
+
+aside ul {
+  padding-inline-start: 0;
+}
+
+aside ul li {
+  list-style: none;
+  font-size: 18px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+aside ul li:hover{
+  background-color: #fff;
+    border: none;
+    
+    border-radius: 10px;
+   
+    padding-left: 10px;
+   
+}
+aside ul li .fas {
+  width: 50px;
+}
+
+.aside-wrapper {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.right-side{
+  display: none;
+}
+
+.logo-text {
+  font-size: 32px;
+  position: relative;
+}
+
+.logo-text label{
+  display: flex;
+  justify-content: space-between;
+    }
+
+.logo-text img{
+  width: 30px;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 5px;
+  right: 205px;
+  background: var(--main-color);
+  padding: 4px 11px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input {
+  display: none;
+}
+ .container span img{
+  background-color:#F59F1B;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  margin:0 10px !important;
+  color: #000000;
+}
+
+/* Toggler Functionality */
+input:checked ~ aside {
+  right: -250px;
+}
+.bars{
+  display: block;
+}
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  width: 600px;
+height: 260px;
+ margin: auto;
+  
+}
+.vector1 ,.vector2 ,.img2, .img4 ,.img5{
+  display: none;
+
+}
+.note-services{
+  width: 300.86px;
+  z-index: 1;
+}
+.title-service{
+  margin-top: 30px;
+}
+.title-service h2{
+  font-size: 61px;
+  width: 476px;
+}
+
+
+
+
+
+
+  

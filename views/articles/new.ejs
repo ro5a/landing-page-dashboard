@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Landing page</title>
+    
+    
+</head>
+<body>
+  
+    <header>
+  
+           
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+             
+              <div class="navbar-brand">
+                <img src="images/Mask Group.svg" alt="NR logo">
+                </div>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                  </li>
+                  
+                  
+                 
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                 
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">login</button>
+                </form>
+              </div>
+            </nav>
+    </header>
+    <div class="container">
+        <h1 class="mb-4"> new process</h1>
+        <form action="/articles" method="post">
+             <%- include('_form_fields') %>
+        </form>
+    </div>
+      <footer>
+<div class="copy"><p> &copy Copyright 2020 The LOGO All Rights Reserved.</p></div>
+</footer>
+
+</body>
+</html>

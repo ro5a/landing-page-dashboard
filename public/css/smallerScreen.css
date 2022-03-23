@@ -1,0 +1,38 @@
+.card-courses{
+    display: grid;
+    grid-template-columns:  auto;
+    column-gap: 29px;
+    row-gap: 30px;
+    justify-content: center;
+    
+  }
+  .card1{
+    margin-bottom: 20px;
+   
+    
+  }
+  
+  .bg-process{
+    margin-top: 70px;
+    background-image: url("../images/Rectangle 335.svg");
+    width: 100%;
+    height: auto;
+    position: relative;
+  
+  }
+  
+  .part1{
+    margin-bottom: 30px;
+  }
+  .bg-image img{
+    margin-top: 30px;
+    padding-top:10px ;
+    width: 400px;
+  }
+  .logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+ height: auto;
+  }
